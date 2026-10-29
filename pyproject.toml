@@ -1,0 +1,6 @@
+[project]
+name = "workflowlab"
+version = "0.1.0"
+description = "Seeded discrete-event tandem queue simulation with multiple servers, percentile waits and paired scenarios."
+requires-python = ">=3.11"
+license = "MIT"

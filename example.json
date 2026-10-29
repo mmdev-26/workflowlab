@@ -1,0 +1,34 @@
+{
+  "jobs": 200,
+  "seed": 42,
+  "arrivalMean": 4,
+  "arrivalDistribution": "exponential",
+  "stages": [
+    {
+      "name": "Review",
+      "servers": 1,
+      "serviceMean": 5,
+      "distribution": "exponential"
+    },
+    {
+      "name": "Approval",
+      "servers": 1,
+      "serviceMean": 2,
+      "distribution": "constant"
+    }
+  ],
+  "scenario": [
+    {
+      "name": "Review",
+      "servers": 2,
+      "serviceMean": 5,
+      "distribution": "exponential"
+    },
+    {
+      "name": "Approval",
+      "servers": 1,
+      "serviceMean": 2,
+      "distribution": "constant"
+    }
+  ]
+}
